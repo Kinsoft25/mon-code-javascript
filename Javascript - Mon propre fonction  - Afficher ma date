@@ -1,0 +1,24 @@
+
+
+
+function  madate (jour, mois, annee)
+
+
+{
+
+retourn jour + mois + annee
+
+}
+
+
+var jour = 30;
+
+var mois = 'juin';
+
+var annee = 2025;
+
+var text = ("aujourd\'hui  c\'est le :")
+
+var affiche = madate(jour, mois, annee);
+
+document.write(text + affiche);
